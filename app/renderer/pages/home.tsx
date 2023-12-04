@@ -578,6 +578,9 @@ function Home() {
         onClose={() => {
           setQrCode(null);
         }}
+        hideCloseButton
+        isDismissable={false}
+        isKeyboardDismissDisabled={true}
       >
         <ModalContent>
           {(onClose) => (
